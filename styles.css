@@ -198,8 +198,9 @@
 
 /* Hero Section */
 .hero {
-  background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
+  /* background: #000000;
+  background: linear-gradient(to right, #161616, #000000); */
+  background: url(/imgs/mtfuji.jpg) center center/cover no-repeat;
   padding: 200px 0;
 }
 
@@ -215,7 +216,7 @@
 }
 
 .hero__heading {
-  font-size: 100px;
+  font-size: 90px;
   margin-bottom: 24px;
   color: #fff;
 }
@@ -237,21 +238,21 @@
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -mo-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .hero__description {
-  font-size: 60px;
+  font-size: 40px;
   background: #da22ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #9114ff,
-    #da22ff
+    #9e51e2,
+    #e7e0e9
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #8f0eff,
-    #da22ff
+    #e7e0e9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -266,11 +267,11 @@
 
 @media screen and (max-width: 768px) {
   .hero__heading {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .hero__description {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
@@ -311,7 +312,7 @@
 }
 
 .main__content h2 {
-  font-size: 4rem;
+  font-size: 1.5rem;
   background: #ff8177; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -329,11 +330,29 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+.main__content span {
+  background: #ff8177; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd414,
+    #ff7a22
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd414,
+    #ff7a22
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 
 .main__content p {
   margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .main__btn {
@@ -350,6 +369,11 @@
   position: relative;
   transition: all 0.35s;
   outline: none;
+}
+
+#hero__learn__more {
+  font-size: 20px;
+  padding: 10px 40px;
 }
 
 .main__btn a {
