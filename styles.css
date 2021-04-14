@@ -705,7 +705,12 @@ input[type="submit"]:hover {
 }
 
 #footer__logo {
-  color: #fff;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
   display: flex;
   align-items: center;
   cursor: pointer;
