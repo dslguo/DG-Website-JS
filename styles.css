@@ -87,7 +87,7 @@
   background: #833ab4;
   /* copy pasted from from uigradients.com */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fdf1d1, #833ab4);
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -201,7 +201,7 @@
   /* background: #000000;
   background: linear-gradient(to right, #161616, #000000); */
   background: url(/imgs/mtfuji.jpg) center center/cover no-repeat;
-  padding: 200px 0;
+  padding: 300px 0;
 }
 
 .hero__container {
@@ -263,6 +263,15 @@
 
 .highlight {
   border-bottom: 4px solid rgb(132, 0, 255);
+}
+@media screen and (max-width: 989px) {
+  .hero__heading {
+    font-size: 60px;
+  }
+
+  .hero__description {
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -330,6 +339,12 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+/* @media screen and (max-width: 988px) {
+  .main__content h2 {
+    font-size: 1px;
+  }
+} */
+
 .main__content span {
   background: #ff8177; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -465,12 +480,12 @@
   }
 
   .main__content h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   .main__content p {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
