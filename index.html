@@ -38,7 +38,7 @@
             >
           </li>
           <li class="navbar__btn">
-            <a href="#sign-up" class="button" id="signup">Say Hello</a>
+            <a href="#contact" class="button" id="signup">Say Hello</a>
           </li>
         </ul>
       </div>
@@ -116,14 +116,55 @@
         </div>
       </div>
     </div>
-    <!-- Features Section -->
-    <div class="main" id="sign-up">
+
+    <!-- Reachout Section -->
+    <div class="main" id="contact">
       <div class="main__container">
         <div class="main__content">
           <h1 id="reachout">Thanks for taking the time to reach out.</h1>
-          <h2>Sign Up Today</h2>
-          <p>See what makes us different</p>
-          <button class="main__btn"><a href="#">Sign Up</a></button>
+          <!-- <button class="main__btn"><a href="#">Sign Up</a></button> -->
+          <!--  -->
+          <!-- <form action="action_page.php"  -->
+          <form
+            action="mailto:dominicguo2000@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm"
+          >
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="nameInput"
+              placeholder="Your name.."
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="emailInput"
+              placeholder="Your email.."
+            />
+
+            <label for="lname">Country</label>
+            <input
+              type="text"
+              id="country"
+              name="countryInput"
+              placeholder="Your country.."
+            />
+
+            <label for="subject">Message</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
         </div>
         <div class="main__img--container">
           <div class="main__img--card" id="card-2">
@@ -139,10 +180,10 @@
         <div class="footer__links--wrapper">
           <div class="footer__link--items">
             <h2>About Us</h2>
-            <a href="/sign-up">How it Works</a>
-            <a href="/sign-up">Testimonials</a>
-            <a href="/sign-up">Careers</a>
-            <a href="/sign-up">Terms of Service</a>
+            <a href="/contact">How it Works</a>
+            <a href="/contact">Testimonials</a>
+            <a href="/contact">Careers</a>
+            <a href="/contact">Terms of Service</a>
           </div>
         </div>
       </div>
