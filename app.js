@@ -49,7 +49,7 @@ const highlightMenu = () => {
 // Close mobile Menu when clicking on a menu item
 const hideMobileMenu = () => {
   const menuBars = document.querySelector(".is-active"); //T/F if the menubar is down (hamburger icon is clicked)
-  if (window.innerWidth <= 768 && menuBars) {
+  if (window.innerWidth <= 960 && menuBars) {
     menu.classList.toggle("is-active");
     menuLinks.classList.remove("active");
   }
