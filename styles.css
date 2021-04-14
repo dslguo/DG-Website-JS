@@ -316,7 +316,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 32px;
 }
 
@@ -441,6 +441,7 @@
 }
 
 #card-2 {
+  margin: 80px;
   background: #ff512f;
   /* copy pasted from from uigradients.com */
   background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
@@ -519,7 +520,7 @@
   }
 }
 
-/* Services Section */
+/* My Projects Section */
 .services {
   background: #131313;
   display: flex;
@@ -652,6 +653,10 @@
   .services__wrapper {
     grid-template-columns: 1fr;
   }
+}
+
+/* Say Hello Section */
+#reachout {
 }
 
 /* Footer CSS */
