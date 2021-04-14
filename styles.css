@@ -87,7 +87,7 @@
   background: #833ab4;
   /* copy pasted from from uigradients.com */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fdf1d1, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   color: #fff;
   transition: all 0.3s ease;
 }
