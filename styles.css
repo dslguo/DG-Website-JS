@@ -155,7 +155,7 @@
     text-align: center;
     padding: 2rem;
     width: 100%;
-    display: table;  
+    display: table;
   }
 
   .navbar__btn {
@@ -440,14 +440,6 @@
   font-size: 14rem;
 }
 
-#card-2 {
-  margin: 80px;
-  background: #ff512f;
-  /* copy pasted from from uigradients.com */
-  background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-  background: linear-gradient(to right, #dd2476, #ff512f);
-}
-
 /* Mobile Responsiveness */
 @media screen and (max-width: 1100px) {
   .main__container {
@@ -492,7 +484,7 @@
 
 @media screen and (max-width: 480px) {
   .main__img--card {
-    width: 250px;
+    width: 200px;
     height: 250px;
   }
 
@@ -502,12 +494,13 @@
   }
 
   .main__content h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     margin-top: 3rem;
   }
 
   .main__content h2 {
-    font-size: 2rem;
+    font-size: 1.2rem;
+    justify-content: center;
   }
 
   .main__content p {
@@ -651,9 +644,131 @@
 
 @media screen and (max-width: 768px) {
   .services__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .services__card {
+    margin: 10px;
+    height: 270px;
+    width: 200px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    transition: 0.3s ease-in;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .services__wrapper {
     grid-template-columns: 1fr;
   }
 }
+
+.reachout {
+  background-color: #131313;
+  padding: 10rem 0;
+}
+
+.reachout__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+.reachout__content {
+  color: #fff;
+  width: 100%;
+}
+
+.reachout__content h1 {
+  font-size: 2rem;
+  background-color: #fe3b6f;
+  background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  /* text-transform: uppercase; */
+  /* margin-bottom: 32px; */
+}
+
+.reachout__img--container {
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+}
+
+#reachout__card {
+  margin-top: 50px;
+  /* margin: 80px; */
+  background: #ff512f;
+  /* copy pasted from from uigradients.com */
+  background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
+  background: linear-gradient(to right, #dd2476, #ff512f);
+}
+
+.reachout__img--card {
+  padding: 0px;
+  /* margin: 10px; */
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+.reachout__img--card i {
+  font-size: 100px;
+}
+
+@media screen and (max-width: 960px) {
+  .reachout__container {
+    grid-template-columns: 1fr;
+  }
+  .reachout__img--container {
+    display: flex;
+    justify-content: center;
+  }
+  .reachout__img--card {
+    border-radius: 4px;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .reachout__img--container {
+    display: flex;
+    justify-content: center;
+  }
+  .reachout__img--card {
+    border-radius: 4px;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/* .main__content p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+} */
 
 /* Say Hello reachout Section */
 /* Input form starts */
