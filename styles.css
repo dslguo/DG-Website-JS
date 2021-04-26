@@ -347,9 +347,12 @@
     #ffd414,
     #ff7a22
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: inline-block;
+  /* background-clip: text; */
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
+  /* color: transparent; */
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
