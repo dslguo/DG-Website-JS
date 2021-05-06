@@ -127,11 +127,14 @@
           <!-- <button class="main__btn"><a href="#">Sign Up</a></button> -->
           <!--  -->
           <!-- <form action="action_page.php"  -->
+          <!-- <form action="https://formsubmit.co/your@email.com" method="POST">
+              <input type="text" name="name" required>
+              <input type="email" name="email" required>
+              <button type="submit">Send</button>
+         </form> -->
           <form
-            action="mailto:dominicguo2000@gmail.com"
+            action="https://formsubmit.co/dominicguo.website@gmail.com"
             method="POST"
-            enctype="multipart/form-data"
-            name="EmailForm"
           >
             <label for="name">Name</label>
             <input
@@ -139,14 +142,16 @@
               id="name"
               name="nameInput"
               placeholder="Your name.."
+              required
             />
 
             <label for="email">Email</label>
             <input
-              type="text"
+              type="email"
               id="email"
-              name="emailInput"
+              name="email"
               placeholder="Your email.."
+              required
             />
 
             <label for="lname">Country</label>
@@ -155,6 +160,7 @@
               id="country"
               name="countryInput"
               placeholder="Your country.."
+              required
             />
 
             <label for="subject">Message</label>
@@ -164,7 +170,12 @@
               placeholder="Write something.."
               style="height: 200px"
             ></textarea>
-
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Hey there! Thank you again for taking the time to reach out! I will try to get back to you as soon as I can :)"
+            />
+            <input type="hidden" name="_template" value="table" />
             <input type="submit" value="Submit" />
           </form>
         </div>
