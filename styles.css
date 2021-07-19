@@ -603,6 +603,15 @@
   text-align: center;
 }
 
+.services__card h3 {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 10px;
+  text-align: center;
+  color: #ffffff
+}
+
+
 .services__card p {
   text-align: center;
   margin-top: 24px;
