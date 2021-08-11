@@ -335,6 +335,7 @@
 } */
 
 .main__content span {
+  font-size: 1.5rem;
   background: #ff8177; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -352,7 +353,7 @@
   -webkit-background-clip: text;
   -moz-background-clip: text;
   /* color: transparent; */
-  font-weight: bold;
+  /* font-weight: bold; */
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
@@ -728,12 +729,12 @@
 
 .reachout__content h1 {
   font-size: 2rem;
-  background-color: #fe3b6f;
-  background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
-  -webkit-background-clip: text;
+  color: #fe3b6f;
+  /* background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%); */
+  /* -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; */
   /* text-transform: uppercase; */
   margin-bottom: 32px;
 }
