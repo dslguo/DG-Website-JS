@@ -221,7 +221,6 @@
   color: #fff;
 }
 
-/* Copy pasted from uigradients.com */
 .hero__heading span {
   background: #fc466b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -246,13 +245,13 @@
   background: #da22ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #9e51e2,
-    #e7e0e9
+    #ac74dd,
+    #ac74dd
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #8f0eff,
-    #e7e0e9
+    #ac74dd,
+    #ac74dd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -353,8 +352,15 @@
   -webkit-background-clip: text;
   -moz-background-clip: text;
   /* color: transparent; */
+  font-weight: bold;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+.main__content span.aboutme3 {
+  background: #ffd414; /* fallback for old browsers */
+  -webkit-background-clip: text;
+  /* -moz-background-clip: text; */
 }
 
 .main__content p {
@@ -608,9 +614,8 @@
   margin-right: 4px;
   margin-top: 10px;
   text-align: center;
-  color: #ffffff
+  color: #ffffff;
 }
-
 
 .services__card p {
   text-align: center;
