@@ -715,6 +715,10 @@
   .services__card p {
     font-size: 15px;
   }
+
+  .services__btn button {
+    padding: 6px 24px;
+  }
 }
 
 @media screen and (max-width: 450px) {
