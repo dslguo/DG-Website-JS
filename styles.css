@@ -662,9 +662,6 @@
   border-radius: 4px;
   background: #131313;
   font-size: 1rem;
-}
-
-.services__card button:hover {
   cursor: pointer;
 }
 
@@ -672,7 +669,6 @@
 .services__card:hover {
   transform: scale(1.075);
   transition: 0.3s ease-in;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 1300px) {
@@ -695,8 +691,11 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #605c3c 0%, #fc00ff 100%);
     transition: 0.3s ease-in;
+  }
+
+  .services__card p {
+    font-size: 15px;
   }
 }
 
