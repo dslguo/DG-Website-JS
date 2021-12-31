@@ -388,6 +388,11 @@
   font-weight: 500;
 }
 
+.main__content em {
+  color: #ffa500;
+  font-style: normal;
+}
+
 .main__btn {
   font-size: 1.8rem;
   background: #833ab4;
